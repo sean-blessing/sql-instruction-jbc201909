@@ -1,0 +1,33 @@
+Stuffy DB
+===========================
+Think of the movie Toy Story, specifically 'The Claw!'.  The Claw
+is in a stuffy dispenser and is used to select stuffed animals and 
+release them to customers.
+
+This project is focused on creating a database to store stuffies used
+in the stuffy dispenser.  We need a simple database and a table 
+to keep track of stuffies.
+
+Specifics:
+1)  Create a sql script...  stuffy_db_create.sql
+2)  Create a database named stuffy_db
+3)  Create a table named Stuffy, with the following attributes:
+id:		int				primary key auto-increment
+type:	varchar(255)
+color:	varchar(20)
+size:	varchar(2)
+limbs:	int
+4)	Other requirements/specifics:
+- 'type' is the stuffy type.  Think alligator, cat, dog, octopus, etc.
+- 'color' should be obvious.  :)  Red, Green, Blue, etc.
+- 'size' will be xs, s, m, l, xl, etc.
+- 'limbs' refers to # of limbs
+5)	Add at least 10 stuffies
+6)	Create a user acct and grant the appropriate privileges
+7)	Run some queries:
+- How many total stuffies?
+- How many red stuffies?
+- How many stuffies per color?
+- How many total limbs?
+- What stuffy has the most limbs?
+- Come up with others... get creative!
