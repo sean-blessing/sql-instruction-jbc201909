@@ -113,3 +113,11 @@ delete from customer
  
 delete from customer
  where id = 7;
+ 
+ 
+-- get the sum of all orders by customer
+select customerId, sum(total) as OrderTotal
+ from orders
+ group by customerId
+ having OrderTotal > 1000;
+-- having sum(total) > 1000;
